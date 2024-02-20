@@ -1,8 +1,8 @@
 import axios from 'axios'
 import queryString from 'query-string'
 
-// const baseUrl = 'https://k-kanbanapp.herokuapp.com/api/v1/'
-const baseUrl = 'http://127.0.0.1:5000/api/v1/'
+const baseUrl = 'mern-stack-react-kanban-app-api.vercel.app'
+// const baseUrl = 'http://127.0.0.1:5000/api/v1/'
 const getToken = () => localStorage.getItem('token')
 
 const axiosClient = axios.create({
