@@ -169,7 +169,7 @@ const TaskModal = props => {
             >
               <CKEditor
                 editor={ClassicEditor}
-                data={description}
+                data={content}
                 onChange={updateContent}
                 onFocus={updateEditorHeight}
                 onBlur={updateEditorHeight}

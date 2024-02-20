@@ -25,12 +25,19 @@ const AuthLayout = () => {
     loading ? (
       <Loading fullHeight />
     ) : (
-      <Container component='main' maxWidth='xs'>
-        <Box sx={{
-          marginTop: 8,
+      <Container component='main' maxWidth='xs'
+        sx={{
           display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
           alignItems: 'center',
-          flexDirection: 'column'
+          height: '100vh'
+        }}
+      >
+        <Box sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
         }}>
           <img src={logo} style={{ width: '100px' }} alt='app logo' />
           <Outlet />

@@ -192,7 +192,7 @@ const Sidebar = ({handleDrawerClose}) => {
         height: '100vh',
         '& > div': { borderRight: 'none' }
       }}
-    >
+    >  
       <List
         disablePadding
         sx={{
@@ -270,7 +270,7 @@ const Sidebar = ({handleDrawerClose}) => {
                     <WarningAmberOutlinedIcon fontSize='small' style={{color: 'red'}}/> 
                 </MenuItem>
                 <Divider />
-                <Tooltip title="Develop with 💛 by Kyaw Zin Htet">
+                <Tooltip title="Developed with 💛 by Kyaw Zin Htet">
                   <MenuItem onClick={handleClose}>
                       <Typography
                         style={{marginRight: '10px', fontSize: '0.8rem'}}
